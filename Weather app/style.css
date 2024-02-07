@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+    background-image: url(https://images.unsplash.com/photo-1599435214324-d71096238079?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    /* width: 60%;
+    height: 95%; */
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    padding: 2vmax 20px;
+    text-align: center;  
+    margin-top: 1vmax;
+    background-image: url(https://images.unsplash.com/photo-1579806591795-82fa34772482?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input[type="text"]{
+    border: 0;
+    outline: 0;
+    background-color: skyblue;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 1vmax;
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: skyblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.wheather > h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.wheather > h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    flex-direction: row;
+}
+.col{
+    display: flex ;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    margin-right: 10px;
+    height: 30px;
+}
+.humidity , .wind{
+    font-size: 2.5vmax;
+}
